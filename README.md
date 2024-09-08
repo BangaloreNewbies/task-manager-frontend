@@ -53,35 +53,3 @@ In the project directory, you can run the following commands:
 Runs the app in development mode. Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
 The page will reload if you make edits, and you will also see any lint errors in the console.
-
-### `npm run build`
-
-Builds the app for production to the `dist` folder. The build is optimized for the best performance.
-
-### `npm run preview`
-
-After building, you can run this command to locally preview the production build.
-
-### `npm run deploy`
-
-Deploys the project to GitHub Pages (or another specified platform using the `gh-pages` package). Make sure to build the project before running this command.
-
-## Deployment
-
-To deploy the app:
-
-1. Build the project:
-    ```bash
-    npm run build
-    ```
-
-2. Deploy the build using the following command:
-    ```bash
-    npm run deploy
-    ```
-
-Make sure the `deploy` script in your `package.json` is set up to deploy from the `dist` directory. (This project uses `gh-pages` for deployment.)
-
----
-
-This format is ready to be copied into your **README.md** file directly! Let me know if you need further adjustments.
